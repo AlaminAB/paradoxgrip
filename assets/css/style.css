@@ -1,0 +1,200 @@
+
+@font-face {
+	font-family: "Aurea-Ultra";
+	src: url("../fonts/AureaUltra_Roman.ttf");
+	}
+
+@font-face {
+	font-family: "Henriette-Black";
+	src: url("../fonts/Henriette-Black.otf");
+	}
+@font-face {
+	font-family: "Henriette-Medium";
+	src: url("../fonts/Henriette-Medium.otf");
+	}
+
+/* 1. Theme default css */
+ body {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus,
+button:focus,input:focus, textarea:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Aurea-Ultra', sans-serif;
+	font-weight: normal;
+	margin-top: 0px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+	color: #f4d007;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-family: "Henriette-Medium", sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #000;
+	margin-bottom: 15px;
+}
+p b{
+	font-family: "Henriette-Black", sans-serif;
+}
+a{
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+/* Custom css start */
+
+.logo img{
+	width: 90%;
+	display: inline-block;
+}
+
+body{
+	background-image: url('../img/body-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.bln_content_wrap{
+	height: 1100px;
+	background-image: url('../img/balon-bg.png');
+	background-size: 100%;
+	padding-top: 260px;
+}
+
+.bln_f_row{
+	display: flex;
+}
+
+.bln_seclist{
+	margin-top: 300px;
+}
+
+.cont-bg{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cont-bg.bg-1{
+	background-image: url('../img/color-bg-1.png');
+}
+.cont-bg.bg-2{
+	background-image: url('../img/color-bg-2.png');
+}
+.cont-bg.bg-3{
+	background-image: url('../img/color-bg-3.png');
+}
+.cont-bg.bg-4{
+	background-image: url('../img/color-bg-4.png');
+}
+.cont-bg.bg-5{
+	background-image: url('../img/color-bg-5.png');
+}
+.cont-bg.bg-6{
+	background-image: url('../img/color-bg-6.png');
+}
+.cont-bg.bg-7{
+	background-image: url('../img/color-bg-7.png');
+}
+
+.sing-cont img{
+	width: 90%;
+}
+
+.sing-cont {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 60px !important;
+}
+.sing-cont.low-pad{
+    padding: 0px 30px !important;
+}
+
+.sing-cont p{
+	font-size: 30px;
+    margin-bottom: 0;
+}
+
+.dmn_wrap {
+    margin-top: -100px;
+}
+
+.fot-girl {
+	margin-top: -50px;
+}
+
+.bln_firlist p, .bln_seclist p{
+	margin-bottom: 0;
+}
+.bln_firlist p{
+	margin: 0 90px;
+}
+.bln_seclist p{
+	margin: 0 70px
+}
+
+.fot-girl img{
+	width: 50%;
+}

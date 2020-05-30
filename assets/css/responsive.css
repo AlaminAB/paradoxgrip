@@ -1,0 +1,134 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bln_firlist p {
+        margin: 0 60px;
+    }
+
+    .bln_content_wrap {
+        padding-top: 210px;
+    }
+
+    .bln_seclist p {
+        margin: 0 50px;
+    }
+
+    .bln_content_wrap {
+        height: 880px;
+    }
+
+    .sing-cont {
+        height: 260px;
+    }
+
+    .sing-cont p {
+        font-size: 19px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    .bln_firlist p {
+        margin: 0 10px;
+    }
+
+    .bln_content_wrap {
+        height: 650px;
+        padding-top: 140px;
+    }
+
+    .bln_seclist {
+        margin-top: 180px;
+    }
+
+    .bln_seclist p {
+        margin: 0 20px;
+    }
+
+    .sing-cont p {
+        font-size: 15px;
+        margin-bottom: 0;
+        line-height: 18px;
+    }
+
+    .sing-cont {
+        height: 170px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 24px;
+    }
+    .bln_firlist p {
+        margin: 0px 5px;
+        font-size: 12px;
+    }
+    .bln_content_wrap {
+        height: 380px;
+        padding-top: 90px;
+    }
+    .bln_seclist p {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+    .bln_seclist {
+        margin-top: 100px;
+    }
+    .dmn_wrap {
+        margin-top: 0;
+    }
+    .sing-cont img {
+        width: 60%;
+    }
+    .sing-cont {
+        height: 300px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 420px) {
+    .bln_content_wrap {
+        height: 315px;
+        padding-top: 65px;
+    }
+    .bln_firlist p {
+        margin: 0px 3px;
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .bln_seclist {
+        margin-top: 70px;
+    }
+    .bln_seclist p {
+        margin: 0 3px;
+        font-size: 10px;
+    }
+    .dmn_wrap {
+        margin-top: -25px;
+    }
+    .sing-cont {
+        height: 260px;
+    }
+    .sing-cont p{
+        font-size: 18px;
+    }
+    .fot-girl {
+        margin-top: -25px;
+    }
+    .fot-girl img{
+        width: 75%;
+    }
+}
