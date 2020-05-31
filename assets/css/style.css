@@ -215,3 +215,8 @@ body{
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: none !important;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none !important;
+}
