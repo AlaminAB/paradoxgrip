@@ -58,9 +58,16 @@
         margin-bottom: 0;
         line-height: 18px;
     }
+    .fot-girl {
+        margin-top: -30px;
+    }
 
     .sing-cont {
         height: 170px;
+        padding: 0px 30px !important;
+    }
+    .sing-cont:first-child{
+        padding: 0 50px !important; 
     }
 
 }

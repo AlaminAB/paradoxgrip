@@ -128,6 +128,10 @@ body{
 	margin-top: 300px;
 }
 
+.text-white .sing-cont p {
+    color: #fff;
+}
+
 .cont-bg{
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -173,12 +177,13 @@ body{
 }
 
 .sing-cont p{
-	font-size: 30px;
+	font-size: 25px;
     margin-bottom: 0;
 }
 
 .dmn_wrap {
-    margin-top: -100px;
+	margin-top: -100px;
+	z-index: 2;
 }
 
 .fot-girl {
@@ -196,5 +201,9 @@ body{
 }
 
 .fot-girl img{
-	width: 50%;
+	width: 100%;
+}
+
+.bg-golden{
+	background-color: #FABC02;
 }
