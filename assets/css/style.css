@@ -212,3 +212,6 @@ body{
     background-color: #ab192d !important;
     border-color: #ab192d !important;
 }
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none !important;
+}
