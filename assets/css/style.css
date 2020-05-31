@@ -207,3 +207,8 @@ body{
 .bg-golden{
 	background-color: #FABC02;
 }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ab192d !important;
+    border-color: #ab192d !important;
+}
