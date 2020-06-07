@@ -220,3 +220,25 @@ body{
 .btn-primary {
     border: none !important;
 }
+.all_content{
+	min-width: 1500px;
+}
+.px-35{
+	padding: 0 35px !important;
+}
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+	max-height: 1200px;
+}
+.all_content {
+    min-width: 1500px;
+    transform: scale(1);
+    margin-left: -13%;
+    margin-top: 0px;
+}
+body{
+	width: 100vw; 
+	overflow-x: hidden;
+}
